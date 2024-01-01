@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sales
+    database: Adventureworks
+    tables:
+      - name: salesorderheader
+      - name: salesorderdetail

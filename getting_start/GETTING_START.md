@@ -1,0 +1,3 @@
+- `1.first_run`: simple ETL job.
+- `2.simple_test`: simple test in DBT.
+- `3.advance_test`: singular and generic data test in DBT.
