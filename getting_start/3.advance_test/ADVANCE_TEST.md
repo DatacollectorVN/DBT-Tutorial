@@ -47,7 +47,7 @@ dbt test --select "test_type:singular"
 WHERE duedate < orderdate
 ```
 
-### 1. Generic data test
+### 2. Generic data test
 
 Create the generic folder inside tests folder, and inside it, create a file with the name `test_greater_than_column.sql`, and define the test as:
 ```sql
