@@ -1,0 +1,114 @@
+version: 2
+
+models:
+  - name: dim_product
+    config:
+      contract:
+        enforced: true
+    description: ""
+    columns:
+      - name: productid
+        data_type: int
+        description: ""
+        constraints:
+          - type: not_null
+          - type: primary_key
+        tests:
+          - not_null
+          - unique
+      
+      - name: name
+        data_type: text
+        description: ""
+      
+      - name: productnumber
+        data_type: text
+        description: ""
+      
+      - name: makeflag
+        data_type: boolean
+        description: ""
+      
+      - name: finishedgoodsflag
+        data_type: boolean
+        description: ""
+      
+      - name: color
+        data_type: text
+        description: ""
+      
+      - name: safetystocklevel
+        data_type: int
+        description: ""
+      
+      - name: reorderpoint
+        data_type: int
+        description: ""
+      
+      - name: standardcost
+        data_type: decimal
+        description: ""
+      
+      - name: listprice
+        data_type: decimal
+        description: ""
+      
+      - name: size
+        data_type: text
+        description: ""
+      
+      - name: sizeunitmeasurecode
+        data_type: text
+        description: ""
+
+      - name: weightunitmeasurecode
+        data_type: varchar
+        description: ""
+
+      - name: weight
+        data_type: decimal
+        description: ""        
+
+      - name: daystomanufacture
+        data_type: int
+        description: ""
+
+      - name: productline
+        data_type: text
+        description: ""  
+
+      - name: class
+        data_type: text
+        description: ""
+
+      - name: style
+        data_type: text
+        description: ""  
+
+      - name: productsubcategoryid
+        data_type: int
+        description: ""
+
+      - name: productmodelid
+        data_type: int
+        description: ""  
+
+      - name: sellstartdate
+        data_type: timestamp
+        description: ""
+
+      - name: sellenddate
+        data_type: timestamp
+        description: ""  
+
+      - name: discontinueddate
+        data_type: timestamp
+        description: ""                                     
+      
+      - name: modifieddate
+        data_type: timestamp
+        description: ""
+      
+      - name: row_id
+        data_type: UUID
+        description: ""

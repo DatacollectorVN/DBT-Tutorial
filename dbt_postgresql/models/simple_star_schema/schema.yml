@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: sales_star_schema
+    database: Adventureworks
+    schema: sales
+    tables:
+      - name: salesorderheader
+      - name: salesorderdetail
+  
+  - name: production
+    database: Adventureworks
+    schema: production
+    tables:
+      - name: product

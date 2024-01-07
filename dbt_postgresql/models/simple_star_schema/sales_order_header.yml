@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: sales_order_header_first_run
+  - name: sales_order_header
     description: ""
     columns:
       - name: salesorderid

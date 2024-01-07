@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sales_test
+    database: Adventureworks
+    schema: sales
+    tables:
+      - name: salesorderheader
